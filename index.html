@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cakes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <img src="img/header-bg.png" alt="" class="header__bg animate__animated animate__rotateInDownRight">
+    <img class="decor decor-item-1 animate__animated animate__heartBeat animate__delay-1s" src="img/header-decor-1.png"
+      alt="">
+    <img class="decor decor-item-2 animate__animated animate__heartBeat animate__delay-2s" src="img/header-decor-2.png"
+      alt="">
+    <img class="decor decor-item-3 animate__animated animate__heartBeat animate__delay-3s" src="img/header-decor-3.png"
+      alt="">
+    <div class="header-top default">
+      <div class="container">
+        <div class="logo">Cakes</div>
+        <nav class="menu">
+          <a class="menu__btn"><span></span></a>
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#our-cakes">Наши торты</a></li>
+            <li class="menu__item"><a href="#order">Индивидуальный заказ</a></li>
+            <li class="menu__item"><a href="#reviews">Отзывы</a></li>
+            <li class="menu__item"><a href="#about">О нас</a></li>
+            <li class="menu__item"><a href="#how-order">Как заказать</a></li>
+            <li class="menu__item"><a href="#contacts">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="phone"><a href="tel:+79068999296">+7 906 899 92 96</a></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="header-intro">
+        <h1 class="title">Торты на заказ</h1>
+        <div class="subtitle header__subtitle">Ручная работа</div>
+        <div class="header-intro__description">
+          <a href="#order" class=" header__btn btn">Выбрать торт</a>
+          <div class="header-intro__info">
+            <div class="header-info__item"><img src="img/ingridients.svg" alt="">Натуральные ингредиенты</div>
+            <div class="header-info__item"><img src="img/delivery.svg" alt="">Доставка бесплатно при&nbsp;заказе от
+              2000&nbsp;рублей*</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="our-cakes" class="our-cakes">
+    <div class="container">
+      <h2 class="block-title our-cakes__title">Наши торты</h2>
+      <div class="our-cakes-wrapper">
+        <div class="our-cakes-inner">
+          <div class="our-cakes__item our-cakes__item--big">
+            <div class="our-cakes__item-text">Классические</div>
+            <div class="our-cakes__item-descr">24 вида</div>
+            <a href="#" class="our-cakes__item-btn"></a>
+            <img src="img/our-cakes-item-big-1.jpg" alt="">
+          </div>
+          <div class="our-cakes__block">
+            <div class="our-cakes__item">
+              <div class="our-cakes__item-text">Муссовые</div>
+              <div class="our-cakes__item-descr">12 видов</div>
+              <a href="#" class="our-cakes__item-btn"></a>
+              <img src="img/our-cakes-item-1.jpg" alt="">
+            </div>
+            <div class="our-cakes__item">
+              <div class="our-cakes__item-text">Свадебные</div>
+              <div class="our-cakes__item-descr">20 видов</div>
+              <a href="#" class="our-cakes__item-btn"></a>
+              <img src="img/our-cakes-item-2.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="our-cakes-inner">
+          <div class="our-cakes__item our-cakes__item--big-reverse">
+            <div class="our-cakes__item-text">Детские</div>
+            <div class="our-cakes__item-descr">18 видов</div>
+            <a href="#" class="our-cakes__item-btn"></a>
+            <img src="img/our-cakes-item-big-2.jpg" alt="">
+          </div>
+          <div class="our-cakes__block">
+            <div class="our-cakes__item">
+              <div class="our-cakes__item-text">Мужчинам</div>
+              <div class="our-cakes__item-descr">12 видов</div>
+              <a href="#" class="our-cakes__item-btn"></a>
+              <img src="img/our-cakes-item-3.jpg" alt="">
+            </div>
+            <div class="our-cakes__item">
+              <div class="our-cakes__item-text">Женщинам</div>
+              <div class="our-cakes__item-descr">16 видов</div>
+              <a href="#" class="our-cakes__item-btn"></a>
+              <img src="img/our-cakes-item-4.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="order" class="order">
+    <div class="container">
+      <h2 class="block-title">Индивидуальный заказ</h2>
+      <div class="subtitle order__subtitle">Соберите торт в 3 шага</div>
+
+      <ol class="cake">
+        <li class="cake__item">
+          <div class="cake__item--name">Выберите начинку</div>
+          <ul class="filling cake-slider">
+            <li class="filling__item">
+              <div class="filling__img">
+                <img src="img/filling-img-1.jpg" alt="Начинка-1">
+              </div>
+              <div class="filling__info">
+                <div class="filling__name">Шоколадный ганаш</div>
+                <div class="filling__description">
+                  Ароматный шоколадный бисквит, густой шоколадный крем – самый шоколадный из всех возможных десертов!
+                </div>
+                <div class="filling__price">1000 руб/кг</div>
+                <button value="" class="btn filling__btn">Выбрать</button>
+                <div class="filling__qty"></div>
+              </div>
+            </li>
+            <li class="filling__item">
+              <div class="filling__img">
+                <img src="img/filling-img-2.jpg" alt="Начинка-2">
+              </div>
+              <div class="filling__info">
+                <div class="filling__name">Клубника в шоколаде</div>
+                <div class="filling__description">
+                  Мегашоколадный вкус с сочетанием заварного крема, на основе сладко-сливочного
+                  масла и сметаны, с прослойкой клубничного кули и добавлением ягод клубники.
+                </div>
+                <div class="filling__price">1200 руб/кг</div>
+                <button class="btn filling__btn">Выбрать</button>
+                <div class="filling__qty"></div>
+              </div>
+            </li>
+            <li class="filling__item">
+              <div class="filling__img">
+                <img src="img/filling-img-3.jpg" alt="Начинка-3">
+              </div>
+              <div class="filling__info">
+                <div class="filling__name">Экзотик</div>
+                <div class="filling__description">
+                  белый бисквит, пропитанный фруктовым сиропом, нежный йогуртовый крем с кусочками фруктов (ананас,
+                  персик, манго).
+                </div>
+                <div class="filling__price">800 руб/кг</div>
+                <button class="btn filling__btn">Выбрать</button>
+                <div class="filling__qty"></div>
+              </div>
+            </li>
+          </ul>
+        </li>
+        <li class="cake__item">
+          <div class="cake__item--name">Размер</div>
+          <form class="size cake-slider2">
+            <label class="size__item">
+              <input type="radio" name="size" value="1 кг">
+              <div class="size__img">
+                <div class="size__img-text">1 кг</div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110"
+                  height="110" viewBox="0 0 110 110">
+                  <image id="circle-1" width="110" height="110"
+                    xlink:href="data:img/png;base64,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" />
+                </svg>
+              </div>
+              <div class="size__text">
+                <p class="size__diameter">17-18 см</p>
+                <p class="size__weight">(1 – 6 персон)</p>
+              </div>
+              <a class="btn size__btn">Выбрать</a>
+            </label>
+            <label class="size__item">
+              <input type="radio" name="size" checked value="2 кг">
+              <div class="size__img">
+                <div class="size__img-text">2 кг</div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154"
+                  height="154" viewBox="0 0 154 154">
+                  <image id="circle-2" width="154" height="154"
+                    xlink:href="data:img/png;base64,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" />
+                </svg>
+              </div>
+              <div class="size__text">
+                <p class="size__diameter">23-24 см</p>
+                <p class="size__weight">(10 – 12 персон)</p>
+              </div>
+              <a class="btn size__btn">Выбрать</a>
+            </label>
+            <label class="size__item">
+              <input type="radio" name="size" value="5 кг">
+              <div class="size__img">
+                <div class="size__img-text">5 кг</div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="173"
+                  height="174" viewBox="0 0 173 174">
+                  <image id="circle-3" data-name="circle-3" width="173" height="174"
+                    xlink:href="data:img/png;base64,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" />
+                </svg>
+              </div>
+              <div class="size__text">
+                <p class="size__diameter">Два яруса 25 и 20 см</p>
+                <p class="size__weight">(15 – 20 персон)</p>
+              </div>
+              <a class="btn size__btn">Выбрать</a>
+            </label>
+            <label class="size__item">
+              <input type="radio" name="size" value="8 кг">
+              <div class="size__img">
+                <div class="size__img-text">8 кг</div>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200"
+                  height="202" viewBox="0 0 200 202">
+                  <image id="circle-4" data-name="circle-4" width="200" height="202"
+                    xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADKCAYAAADgkA+VAAAac0lEQVR4nO2dCZgVxbmGv5mBAUEBlV1ZBBeCoCCIorgRgaAGo+JGVKJiruKO9wrGuEYkGo0SFOLCNTFxDxqViBIFxV1xXEFcUJQrLkRFVJYBZu5T+LW2NXVmqs/ppbr7f59nHu1mznSdPufvqvqX7y/r3eMnEJxkEwCr5aNJlvI8v/mIaQfgCAC7BbzMIACLAawC8AKAbql75xlCZpBo6A9gDoDN+NenAxhjcaUyAB8C2Np3bh6AfSxH2QrAMQAaA7gLwDIXbkaaEQOJhgcBHKT95V4AFjRwtfYAPtbOfQtgU4tRbg7gJQDb8HgFDXVxkjci7cgSq37U/TkYwFkAdgzwujaGcy0sXvcpgDe1c09bXvMIn3GAs8mJlq8VCiAGUj9/A/BPANcAeBXACMvXTdOOXwbwosXragGMBPAkgOUAZgD4leU1TZ9lI8vXCgWQJVZhtgfwlvav6ou7t+XrDwBwIIBPAEwGsDLi8aol1nMcN2hgAwAssXhtVwAXcIl3P4CbaKy5R54whak0/EtFgNc/xJ+4+JIes6O4Sf+HYT9jopIOBW95pgy7OWfN3CMzSP3MBjCEv7EBwOEA7nN1sEWiZpnntZe+UIR7OpPkaQbpwQ9d7Qdes3yN2qCPAtCFnimbfUTaULNMjbaHsZl5ckFFu9Ymh0vmUDGIWQAOAXAyvUXzLd7kehrU3AzHFFZydtyXcRj1Pk8A8JkDY0ucvCyxvuAm1uMrHstG9Ae24ma9SlJcfiAPbl61jGyinWsiLu46fMSYi61xqPs6kXGbhwH0iXGssZGHL4laJt2unZvGZYVQPOcC+A33dsMA/BtAy6zdz7xs0k/h0mFnAM8A+LsDY0o7Q7Txt6YTZHaW3mReDGS9IbotlMZCbuw91H7uvazd07QusTZlRHtri98VouFiAE/xL1cDGA/g3azd6zTOILvQZduW+4hzmMohxItKZdkLQGe6ildk8f6n0c37JIuKPFYzhyjqXCchh6RxidVZO1alqVsmNBYh46TRQGZoxyqD9f2ExiIEQ6Xt/B+Ar7ksNiWEOkUaU03mMndI8QCAX0vkNxWoKP1jLOSqpEt4lW+j7yRp3KRX04MipItdmIbvZ5Dr70DSLYS4qOLDzU+V63dfDESIiyVUXPHS69Ve8veu331X3LxlTHarZa1GjcVrhPSikkXXpmH0LswgTZm/U8Xaizk8J2SXVBgHHDGQXwLY33esRNKOTHA8gvA9LhhIF8M5CfwJTuCCgczSajOUb3xmguMR3KEPpZNaJTUiFwzkWQqyPUDPhkqhftuBcQnJciX3pDNZtbhTEqMR2Z/4GMC9lhKjuzdAPfwWAE5lDf1t1N/NOqo+fim9mx6zqNkVKyIcFw/HAbjFN2PfQuWQhmhOjaru/L3TaGTzMnqfPFpqxoGkllkSKIyHCdq9Ph5AR4srD/MZB5iqcXoab0BAFhlytO5NYiAygwRnG7YyeJmZqTboWau1hrQLE18Zzn1pec0mnKV2oKDCv6K7JaFTQ9G+c3m/HwVwcxIDkT1IMFTm8PV8sFSz5cD9Fn/hBH7A3rJB1cePtXhdOTepw3n8Jav4GuozAjo8DvUdnyWVl8GJ2kAGMeinmsBcS6XztKJmgc+1ZjZv8wltw0AAe3D58FCATXoFN6dbUn/K5h62pXqknyVa/xDBgiiXWHszbcRTRD+MsjurUvrBNDd0etoiwOuf5U9QNlAXOAhrqeTi/3xTk97hElFu0k/W2gVsG6DXnot8aQhg3uroWNXe5SrfsTKySxIcT2qJcgZZbzj3ecrvl+q9cTYAtS59gs05XeU8tmrwxPJs9i2CRpR7kD78Enm9+e7hptYlWjIotUhS7L9HLYX3A/AGHwDrHBlXfXQA8A1r3UMlyiXWK9zAqh57P+fT1yVO4YZ3Ab8MnRwbXxKcwc5Up9LTdpfj492MpRLLqNN1RtgXyKubtzNlMv17JKXXe2yCY3IB9bDoqY2jC3u3u8il7K3ooTyDvcNcTuY1kt7d0G9QXKB11WFqHV9i6S72soDtuhskrwbyoqGDkk3AL+tcoLmDb3C8Hdsj2nE1c9dCIy8t2HSqqa/ViXEZ1dH1auk4tVF8+g4qt18H4E8OjKk+XuFnuT2XgWMNDUlLQlJNBKEeJJtXEOqhlEBhJZP3enAtGDQdQhCcp5QZRFW3TaHP3NPITZotGHPpJ1+9WNiNweDF3Mc5L0YdlGL3ICqO8IF2rirhL6aq0Xjcp4jyZwYDhWhoxo2xX4FmEht7ZoZiZ5ANBo9P6GH+gEzSPqyTmSApRENPgzzTsKzd62INRPXU/qvvuJo9s5PElHreIuExZZn3DKULC7P2fkvZg5wI4BAA4wD0ZVlnkuh5Q1X0k6eJShaZ9TeIFrjGFwBG+1YObzCD2CXUPTwawI2s5Q/slMpaHEQlRg5lx6mrAtRvu4Ca7Z7mXgqsOhyhieq5SGNm0y51MNB6PoDLfMd/oWCGNRIojIbtmDb+GSPTNh2w9A8TLA+4Jy1v2kHeZ2crjxouxU1iGEZE1SR89mVcyHN5jmH5samAzE9bwzkbaSBQdfA4LntucTx/Kk701tQ1Qet+JJIePmdq8YCB/GmIu7Xl1EpLLai+bGR6Dh0lL1KFUQAu0rKRrw7qbZUZJHxM99TmqaX2H0Ponl5DiZ6lFq8bzVbYHltxaXZDgvfAFR5gZetgetjmBB2XGEj4TGY8wGtYOYc14TbM5U8QTPubNem7bZGxsBT3c5qWWFtxLd/MgbHUx6Nc9pzPCsXhEXt3pmgzzauOlcqqwrTLqUL5Mp/mqcHGi9WRPRo+onBZEuIGZ9Jt24h15EPod4+DTfglX8fNt41kaNy05BhruKxwaQY5Q1N0/JbVm8sTHJM1DRnITkxG85S179PkLOOgNZ8+TXzXepAxgqhpy72Bl7LyDBU/XDQSV1Fu6pHa2EZSGtV5GlpinavJzh9CnaU46awZh6J9TNc/Xcvn2iOBB0QUtGB57a2M10SJ3gu9lj1SUkFDBmLqyaCLHUTNa8z78XNnTNdubTi3WUzXjpIHqQhyrE/mJyom+2qF1jLbN67lcck0tMQaSf+8lxeknga7JrAP6cYPtBtjA3HVjw/kEtPzSH3CVJA0K0R2ZYTZzwJfiktUtGNyY9JZ34Gw2aQP5bLiYz4N9Ohk1tmT+TtfUMTAtieIq7ShoftXD89ZBjOzRCOmnejqNj9CcrHyycWMMoMOh0NT1mCnVAZTKLADM74PLiSOJwaSX/rQS/mUYY+XZSq4CvA7epQm2i9M71ki6fnllRTWy4TBFgYvaMEW05KsKOSN5YbUk4KttfNsIINZx36szKS5YyS7fa1mU6SC/SLz+sUYzeoyj/0s+5YL0dCZRUzWhUwl8iaDvg3i2gzSm1/UPhFf5wLteHRSjepTQEd6e6KgDetXPqDr2TmZJpcM5BhuGqczIBllw3z9fQeuNMsByttzKz0+H3HGDfv7ch4FKhRNGWdzqpGR/obL2XJ4DNPL4+QS33jKfH76KPiD9jevYAWf8AOHc39Wxp/REeSh6T1ZGlPK1hn0PchtvlZpK9mVNi5XoF6TXckPJoqUkmlMr9ibcvlJSxa5iErr0enN3K2wmKvFH76uz6OUBP7+IDtQrtOjCRPzbOqiw0DNWAN8f+cmSt9EhVr3zstZkCwIqinmGG2VoWb5JSFeYz7/24kbZyU88U40b6c4/DOIaZOqN86PkrN5k3blxu3PMV5bqIuq/juK2bfqYfnHIsqBG2IDl9JRLqdLwp9q0ogW7dV71HL6e8DVwQtC1PhnEKXbtD/lYzoymUvW5kKukWRFQfguq+Ji6g9c7w8iS4qFkHe6MNW/Ke+DUqb8FMAsSLKiIGzcVjTVbsNw73+ybCAV9LyspEv3aAfGJLjHu4YRfV+SnGUDGU3X8WZMhlNpE90dGJfgFk8wcOwFpJ8EcLM3wiwbyN7acaMYkiDzxHYRpiP1LKAoExVjmfayM7NHvheWSNpAurDpzT4R/G1dWmY9ZTmF0tiEG9i3mcg4NcT7qXoevsA0ICUSMj7Gz+oDSkz9KLUpSQNRT/hF9Bo8zv1CmExl3lAtnwinFVhvCsFQrfd+5nvFKeyJEgYTmEkBzviTtAY4sZOkgfxG8x6cGXJfi1XMSG3OOmRpBxAOegYuuNwKA32PqJJVEw3UeQZyDuUgX6LbKw70FsLl/DKHzWqL7k6CPQ9py5B13OiGwSPa31jBbOvEUNm8R7EL6JasHDuMLZ6jVsBrpk3Vs+hNENzmfbZb6Mo9yMkUnguDKsqTtmNW74lJ6/iqVJNbuFH2c1RMPSaOY1BmMYuWUiVLKWSfRvRG6MRltbfyRxCcpJzJWfM4OJWff2FOBcUEoQ6NfKW1O1B25RO5TUJOacIg5Yeegr/fzfuWGIeQY3pxL1xF54NKVZJsXkEgE32pMyo+d53KGsiigfSirOTnVGlp6cCYBPfRg51Kj6Fl1gqmytlo1OsrOIoR9ZMSHpfgPrO1qL0SEPkkawbSTmu6CeruCtFRnhFVyvPoxfXicuOQwT3IckP/7dQ0jEwZPZmatI7tscOstVHZHHdwX9DG4vfDYDVTrtT7+rmnz5Wkgag0gteZ3jw0pL+5nlkBX/D4NSZBCuGjNJR34XdoYIg6ZqOYhe1pcj2S5Pc0KVWToVpi2hoAO4aoctiYeWVLY+qGm0fWay3Bvw1JaHCWlqMH7g0WJXGPPcusYKBQL16PigO0v9s0xJoCcNr/UIwjUvRsi7CK0dYazq1K6k2WU6R4EX9UoHBEDNddbDi3NIbrCuFxLJfIYHBtTEh/+XKt1fiNhTrQxoFaYt3NwiKPFVyerInw+qpsc4ZPXmUqK/7kiZ8+NqXQdZh0oPdxKUUUEkMZyALu3P10iclqu9N7sCz1XxMhk5Qb9HffYi5KHCwW4xBcRlUUzmM1YVu2HVBry//IpyYI36W7r3KxeaIgxIzK2TuSq6p7vHR3Ea8WhO+M40VfwqKSH+qnjCTL6e4qdfl2NgWayJ6HgmDiaC2btwsj+pmeQR4E0Jf/34/vNU6lPiE9NDGMdGPQPKszSAefcXj8ovCvCwHZJGM3TK00PvMdr+C5zBrIf1hf7yexaGyG6EQht1V00Q8K+a11ZCbt1jHfMpUB3h/A77kcVyLWH8GRFmyVXO8pIbL72V01DEYx47QpDWYYUyKE4vkngIN9r15SQIq0GA4CcDdnp3XcF8xI+rNywUD8N90rWAmreWgbRutfZ7apUBpKcb299hdahCT4pyr4eviOP+RmOVGSXmJ1155IFWx6ExbLKYspxhEOL2l/5ZUQ1TA7acdt43pT9aEbiPqyXkNJ0Dg8XBsM55rFcF2hOJQO76NcAs33XKEhoffjv8eFz8hvBKdS6sRjTwD/FfH11Rr2XgCH8lgZzLURX1MoHpWjNySi+3cim9jsxln/Mhc+J/8eRF8DVrOvRtTLE7VJ/yXrUv4VolK4IJSMfwbRK7nKY9qjVLPLlCA4h98AJmoFS1OlHYGQd/wzyD2szRjM5VbiPuiIaczNpiAU/C7oS6inAfzO1/wyi6jYyMMsKV5iaBct5IcRjJivpkxtHQ9qHsWrr2BUvZyBqH9E1BtRcJs27KLWkfG3UaZk1jwayM7acRtKHgnfoVI9LmDaz/gMlwnsbJC52kX/pTwWTD2j3YiVnsyksJH/paqhYgQj3Kdl8Na8SQ+q/wEwX/8l12eQKJ5eExic3EAlx8PFW/c9qi7iCO1cmNFyj05MJJ3N6HxZBNdoiI+ov/AZvwu3cfn9I1xIVjTRkvn4w+lZO9HQQ1sIn0rqGvv3ZEr8u3eIV2rMv7m975xqT3Fzgp9nEz0O+NqbCzf+19UZZBLlSctYOqs2U5s5MK6sU03BaK+dgad4Hia7acYBiiUkiUnudCOuGoi+kW5pELcTouFPvNcj6byYHfJVPjOci0uHLTANGch2nP6GxrxOnKcdf1ugn7sQDW8xUByFXrL6HCf7jtU1LnH1c6zPQAaz0OhGrv+nxTguFay8kxL7yzgFfxnj9YVoOYurhOFMkF3i6v2ub5P+iNbYppb7gY/jGVriVDI/bShdghNc/iCFcPE26fXFQfTZRS2xWufIQC73bVB3onTQTzirpZVuVGI37QMEA/UtsW7U8rGez1m/v+Ha8bbsgpVGVN34Y1Qi+ZjqHYIF9RmIyu49kAGdS9gWK0/9O97Sjtd6UjApZAL3lOBnPt6UVpEDmlOFxdp729AvzmLnoIu1rj95YJzPSKopJpFW1fsehnN6u+ysczRnz/fYLs5KeyuPyYq2LOGSakcqNcbpxQsbXUZJ5Z89nuL3ExSVxn6TL9jcy3aZmfZkxQpGfaNa+qkcnYUBX6PyjDpTIifKNnZBUC2aN+dTVLnNz494o96KrtyuzIKYFeG1bNjWUNLQ1eaFaZ1BKhhs+oZLP1eyTcdz5nmKU3mfiK6jlge/pt6wzUOull653qyFqZO1GiJNWHh3EYDRFOLQuxrHzdtsUOvHSpwwrQaisjDPYD5/C6ZH9Et4TO0pVePdU7UsuzKC6/TnrHYDgPsAzEwoG7YQ+2lpQWpsv0p4TGtopHOp2Hgt8/0aJK0GohuD+hD2SmgsHh0MT/POlq9VSvQvcEaczYBsIc7XEjfVjLB7aO+idEyJf8sdGNfL9OR1ocOl2uZFaTWQuYZzYYleF8urhjjRXRZ/q4wzwa5cJw/hhrIQjQ3nXar6e0JLcFRLm6sSHE9JlGIgzRLc5KuCp/OYxPgFN4RPJDQWjxp+uSdTFOK/LZPw2htEmner5/en+dLRwdZhTxc/7NCpYZD1AErYKo/R+w6NLxDFFExVMng4in0izk25CzRpyrmh9xvJTPbJKIRaUh1Gj9R0um2FELHJxSrEWADH8N82BXA9gCdzloYSJjXUJp7OXK859FDVx3Mi0RoPxRhIL+24jOtnMZDiqTK0jBMcoJg9iB6BrZHOTUJWKcZAbmOY/ivmtpxMD47rZK3xZBKolcKlbJXh6v1sztyzijD+WDEGUksPUiuq0tXnknSBXlz+reJMJ7XtxaEyu5+lqNx1DgYowcyCj1ng9g73dCWRh2TF6b46jr6WsQmhLv+jPZUHG/ajSbIJ22h4QVSV1v7HUseTBwPR6x56yXKrKEzt8lyqrtyKqxo/3Ur9o3kwkCe145ep9yQE4w9aGsldXMq4whJDQPLBUseWB23eY7lP2pfOhDEOjCmNqOyAAYyQL3awf8x69lq/ht2TZ1IEryRclR4VhERxXXpUEJwgKgMZxozOmSnt4LQNEw1/S1d2FunFNfoHbHnQIqPvsySi2IP0ZxWZ5xIcwkq2tEiHdmW57OY8Pp2esLQqmpio5MPLS5A8nkVFY90aZvJEMYMcpPnLK30NWdLAMT7jULT1JWdmhR6GFPufZuw9hkIUBrLYcC5NT1+TC9gUA0gzSw3v8/WMvcdQiMJA7tRULOYyfyst/EVryfYBz7lOhwLVhiaUEPgJPq2zp1l05jpduRqJLfM5CgNZx7ydXfnzU4fkb2z4nDXvx7Muo6+lYJxaSk7hbFlF8YI42JbxnWX8OdDymupB1o7LyUEu9+ggB1HI7w7uEWMxaImDhIfyel3o+2vfMtXBRn+qjN6+rfgweZylxDY85pMVBWeFjhnMFlikdSNW93cLW/GFoJRSUSiYGaSdbU6P3kMW9+tOrXnmcqq06PrAJvRuXK2owh9F85skaa9du2lYKe31IYHC8NBVVWxVGfsZOsu2YfasDXpz04UZc0l7/N1wHPksKTNIeFzKHKARXOacZ9lwp1CATpfKLMRYVnXuzrqXcZrqSVY4mzPqAO5BpsbxvmQPEj7NuI+w/ZKqzf0rWnHPBjo3kpYyyi0u7EHK6Ik4gmvuC/lFSTurAo5fbTIH8snfnse3iWqJGyRpIMdpFV9700vxaYJjSoqvKPYsOEaSm/T9teOWrNkQBGdI0kDeMZxblsA4BKEgSRrIZPbR8JhmKI8Vss8YLqtXs6w38thGEJLcg3zFfUdP5gbJ7JE/dmU3ZU8+SAl+L3Ap9y3pQGEtb4gYRz7Z06Ct1d+lOyGRdCFJXjBc2yn3thiIkCTPUMb0a/78zrXSiDSlmjRhT5LWbKBjKswS0sdU/pRF2K24aNJiIOVM696TxxcxFeP5hMclhIdzxoEULbEG+owDTOSzzXYVhKJJi4GYVMRty0uF+NmDXbM2T/u9T4uBqM3cPN/xBpa3Cm6hHmS3s8Z9BqsAt03zZ5QWA6mhGN1JACayC+yjDoxL+DGqCvJo3xklmTQhzfcoTV4sVWNxswPjEArT2vAvm6b5fkkcRAiTOVq5b01KJJMKkmUDUUlvVzHP610AhzswpqyzgssstT/8K2VnH07ze85yTbqq1T6H/9+KekoLLIUUhOJRTWzOyMr9y/IMMkA7rqD7UbCnDTfZVwPok8f7luUZ5CWD6LToz9qjZl2lELk1X3Eqtb/mp2HwYZHlGWQKc3xUEtw3AM6V1JRAHOwzDjAXLnft67I8g2zgU+9MelOCaEXtRUG3Fxn0yiNK2lPn67zdhzy4edcHNI5xjNpfw5LgVAe6SkA12KnyvXxZHrMXJA5Sl99qZy7IwEw7nMtL1crh4gK5bToqMLsn2w2o6PiOAD6Md9jJI9KjddFFAxpZfqE82nLPE1RALipUT437uIcASwU+pUhGQ6xhP/TcIjNIXa7Uzkxhz5OGaMHGpZ9SKXJ8BGPbho1v9glgtHv4jMND2q1ZIgZSl4lsln8ZgCMD1J2MY+QY1OedFCB20I3Jl2pj/CyVXnSGMcg5nf1DbrD826bmqa9Zvjb3iIGYmcW9x90BKt30Ph1lhnOFuIVP9WZUadel/kGDa+o7PklzwxZiPh0Nq/le7mUKjmCBGEh46DlHq9mf0Ybdtd/pa1gW6ccIsIe8goE/9XOYQ/sj5xEDCY8b2RPkDS6TRgbw+ujyN0rlfq12Tt9UP2DZf8RDqcavjPD9ZxLpD+IG3ZkW3o8pMiexGk9H7XF+BuA9GqSN80Aogo39QQD8P8uEB/bHL+8IAAAAAElFTkSuQmCC" />
+                </svg>
+              </div>
+              <div class="size__text">
+                <p class="size__diameter">Три яруса 30, 25 и 18 см</p>
+                <p class="size__weight">(25–30 персон)</p>
+              </div>
+              <a class="btn size__btn">Выбрать</a>
+            </label>
+          </form>
+        </li>
+        <li class="cake__item">
+          <div class="cake__item--name">Оформление</div>
+          <div class="figuration">
+            <img class="figuration__decor" src="img/decor-cake.png" alt="">
+            <form class="figuration__list">
+              <label class="figuration__item">
+                <input type="radio" name="figuration__item" value="Ягодное ассорти">
+                <div class="figuration__item-image">
+                  <img src="img/decor-item-1.jpg" alt="">
+                </div>
+                <div class="figuration__item-text">
+                  <div class="figuration__item-name">Ягодное ассорти</div>
+                  <div class="figuration__item-price">700 руб/кг</div>
+                  <button class="btn figuration__item-btn">Выбрать</button>
+                </div>
+              </label>
+              <label class="figuration__item">
+                <input type="radio" name="figuration__item" value="Маршмэллоу">
+                <div class="figuration__item-image">
+                  <img src="img/decor-item-2.jpg" alt="">
+                </div>
+                <div class="figuration__item-text">
+                  <div class="figuration__item-name">Маршмэллоу</div>
+                  <div class="figuration__item-price">600 руб/кг</div>
+                  <button class="btn figuration__item-btn">Выбрать</button>
+                </div>
+              </label>
+              <label class="figuration__item">
+                <input type="radio" name="figuration__item" value="Ягодное ассорти">
+                <div class="figuration__item-image">
+                  <img src="img/decor-item-1.jpg" alt="">
+                </div>
+                <div class="figuration__item-text">
+                  <div class="figuration__item-name">Ягодное ассорти</div>
+                  <div class="figuration__item-price">700 руб/кг</div>
+                  <button class="btn figuration__item-btn">Выбрать</button>
+                </div>
+              </label>
+              <label class="figuration__item">
+                <input type="radio" name="figuration__item" value="Маршмэллоу">
+                <div class="figuration__item-image">
+                  <img src="img/decor-item-2.jpg" alt="">
+                </div>
+                <div class="figuration__item-text">
+                  <div class="figuration__item-name">Маршмэллоу</div>
+                  <div class="figuration__item-price">600 руб/кг</div>
+                  <button class="btn figuration__item-btn">Выбрать</button>
+                </div>
+              </label>
+            </form>
+            <div class="figuration__qty"></div>
+            <div class="figuration__total">Ваш выбор</div>
+            <form class="figuration__form">
+              <div class="figuration__form-item">
+                Начинка
+                <span class="figuration__form-value figuration__form-filling">
+                  Шоколадный ганаш
+                </span>
+              </div>
+              <div class="figuration__form-item">
+                Размер
+                <span class="figuration__form-value figuration__form-size">
+                  2 кг
+                </span>
+              </div>
+              <div class="figuration__form-item">
+                Оформление
+                <span class="figuration__form-value figuration__form-decor">
+                  Маршмэллоу
+                </span>
+              </div>
+              <button class="btn figuration__form-btn" type="submit">Заказать торт</button>
+            </form>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+  <section id="reviews" class="reviews">
+    <img class="decor-flag decor-flag-left" src="img/decor-flag-left.png" alt="">
+    <img class="decor-flag decor-flag-right" src="img/decor-flag-right.png" alt="">
+    <div class="container">
+      <h2 class="block-title reviews__title">Отзывы</h2>
+      <ul class="reviews__list">
+        <li class="reviews__item">
+          <div class="reviews__item-image">
+            <img src="img/reviews-item-1.jpg" alt="">
+          </div>
+          <div class="reviews__item-text">
+            <div class="reviews__item-name">
+              Мария
+              <span>юрист, 33 года</span>
+            </div>
+            <div class="reviews__item-description">
+              Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку!
+              Теперь будем заказывать торты только у вас для наших семейных праздников:) <span
+                class="reviews__item-description--hide">Развернуть</span>
+            </div>
+            <div class="reviews__item-qty"></div>
+          </div>
+        </li>
+        <li class="reviews__item">
+          <div class="reviews__item-image">
+            <img src="img/reviews-item-1.jpg" alt="">
+          </div>
+          <div class="reviews__item-text">
+            <div class="reviews__item-name">
+              Мария
+              <span>юрист, 33 года</span>
+            </div>
+            <div class="reviews__item-description">
+              Заказывала торт брауни на юбилей мужа. Гости были в восторге! Отдельное спасибо за своевременную доставку!
+              Теперь будем заказывать торты только у вас для наших семейных праздников:) <span
+                class="reviews__item-description--hide">Развернуть</span>
+            </div>
+            <div class="reviews__item-qty"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="about" class="about">
+    <div class="container">
+      <div class="block-title about__title">О нас</div>
+      <div class="about__wrapper">
+        <div class="about__text">
+          <div class="subtitle about__subtitle">О кондитере</div>
+          <p class="about__text-subject">
+            <span>Кондитер – как призвание</span>
+            Павел — профессиональный повар в различных гастрономических областях, но однажды его сердце покорило
+            кондитерское искусство. С ранних лет он увлекался утонченным мастерством и обратился к своим талантам как
+            кондитер.
+          </p>
+          <p class="about__text-subject">
+            <span>Принцип – натуральные ингредиенты</span>
+            Сегодня Павел радует изделиями не только близких, но и тех, кто предпочитает качественную продукцию для
+            торжества, а главным принципом является выбор натуральных ингредиентов.
+          </p>
+          <div class="icons about__icons">
+            <a class="icon icon__instagram"><svg height="511pt" viewBox="0 0 511 511.9" width="511pt"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+                <path
+                  d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+                <path
+                  d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+              </svg></a>
+            <a class="icon icon__vk"><svg id="regular" enable-background="new 0 0 24 24" height="512"
+                viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015.03-.058.078-.135.103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895.001-.002.002-.005.002-.008.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09-.034-1.387-.011-2.446.007-3.233.036-1.535.152-3.029-1.441-3.029h-3.868c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466h-2.461c-.998 0-1.594.544-1.594 1.455 0 2.046 4.529 13.544 12.145 13.544zm-8.09-13.499c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702c-.066-1.225-.512-1.835-.805-2.205l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241h2.461.01c-.001.003-.001.006-.002.009-.225 1.05-2.446 4.396-3.189 5.435-.012.016-.023.033-.034.05-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105-6.345 0-10.477-10.071-10.636-11.996.055-.005.812-.002 2.546-.003z" />
+              </svg></a>
+            <a class="icon icon__twitter"><svg viewBox="0 -47 512.00004 512" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m512 55.964844c-32.207031 1.484375-31.503906 1.363281-35.144531 1.667968l19.074219-54.472656s-59.539063 21.902344-74.632813 25.820313c-39.640625-35.628907-98.5625-37.203125-140.6875-11.3125-34.496094 21.207031-53.011719 57.625-46.835937 100.191406-67.136719-9.316406-123.703126-41.140625-168.363282-94.789063l-14.125-16.964843-10.554687 19.382812c-13.339844 24.492188-17.769531 52.496094-12.476563 78.851563 2.171875 10.8125 5.863282 21.125 10.976563 30.78125l-12.117188-4.695313-1.4375 20.246094c-1.457031 20.566406 5.390625 44.574219 18.320313 64.214844 3.640625 5.53125 8.328125 11.605469 14.269531 17.597656l-6.261719-.960937 7.640625 23.199218c10.042969 30.480469 30.902344 54.0625 57.972657 67.171875-27.035157 11.472657-48.875 18.792969-84.773438 30.601563l-32.84375 10.796875 30.335938 16.585937c11.566406 6.324219 52.4375 27.445313 92.820312 33.78125 89.765625 14.078125 190.832031 2.613282 258.871094-58.664062 57.308594-51.613282 76.113281-125.03125 72.207031-201.433594-.589844-11.566406 2.578125-22.605469 8.921875-31.078125 12.707031-16.964844 48.765625-66.40625 48.84375-66.519531zm-72.832031 48.550781c-10.535157 14.066406-15.8125 32.03125-14.867188 50.578125 3.941407 77.066406-17.027343 136.832031-62.328125 177.628906-52.917968 47.660156-138.273437 66.367188-234.171875 51.324219-17.367187-2.722656-35.316406-8.820313-50.171875-14.910156 30.097656-10.355469 53.339844-19.585938 90.875-37.351563l52.398438-24.800781-57.851563-3.703125c-27.710937-1.773438-50.785156-15.203125-64.96875-37.007812 7.53125-.4375 14.792969-1.65625 22.023438-3.671876l55.175781-15.367187-55.636719-13.625c-27.035156-6.621094-42.445312-22.796875-50.613281-35.203125-5.363281-8.152344-8.867188-16.503906-10.96875-24.203125 5.578125 1.496094 12.082031 2.5625 22.570312 3.601563l51.496094 5.09375-40.800781-31.828126c-29.398437-22.929687-41.179687-57.378906-32.542969-90.496093 91.75 95.164062 199.476563 88.011719 210.320313 90.527343-2.386719-23.183593-2.449219-23.238281-3.074219-25.445312-13.886719-49.089844 16.546875-74.015625 30.273438-82.453125 28.671874-17.621094 74.183593-20.277344 105.707031 8.753906 6.808593 6.265625 16.015625 8.730469 24.632812 6.589844 7.734375-1.921875 14.082031-3.957031 20.296875-6.171875l-12.9375 36.945312 16.515625.011719c-3.117187 4.179688-6.855469 9.183594-11.351562 15.183594zm0 0" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="about__img">
+          <img src="img/about-img.jpg" alt="">
+        </div>
+      </div>
+      <div class="about__quote">
+        <div class="about__quote-text">
+          Я за простые рецепты. В Италии это называют cucina povera: когда обычные ингредиенты превращаются в
+          божественное блюдо.
+        </div>
+        <div class="aboute__quote-img">
+          <img src="img/quote.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="advantages">
+    <img class="advantages__bg" src="img/advantages-bg.png" alt="">
+    <div class="container">
+      <div class="block-title advantages__title">Наши преимущества</div>
+      <div class="subtitle advantages__subtitle">Почему нас выбирают?</div>
+      <div class="advantages__inner">
+        <p class="advantages__text">
+          <span>Без искусственных добавок</span>
+          Работаем с натуральными ингредиентами и свежими продуктами
+        </p>
+        <p class="advantages__text">
+          <span>Свежий торт в день торжества</span>
+          Торты изготавливаются в течение<br> суток до отправки
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="care">
+    <img class="care__bg" src="img/care-bg.png" alt="">
+    <div class="container">
+      <div class="block-title care__title">Забота о клиентах</div>
+      <div class="subtitle care__subtitle">Для нас важно</div>
+      <p class="care__text">
+        Нам важно чтобы каждый торт был безупречным, как внутри, так и снаружи, чтобы он был создан исключительно для
+        вас и для вашего события.
+      </p>
+    </div>
+  </section>
+  <section id="how-order" class="how-order">
+    <div class="container">
+      <div class="block-title how-order__title">Как заказать</div>
+      <ul class="how-order__list">
+        <li class="how-order__item">
+          <span>Срок заказа</span>
+          Размещать заказы желательно за 2-3 дня. На выходные заказы лучше размещать минимум за неделю.
+        </li>
+        <li class="how-order__item">
+          <span>Доставка по городу</span>
+          Доставка в пределах города 200 рублей, при заказе на сумму более 2000 доставка бесплатно.
+        </li>
+        <li class="how-order__item">
+          <span>Доставка за городом</span>
+          Доставка за пределами города рассчитывается индивидуально.
+        </li>
+      </ul>
+      <img src="img/how-order-bg-small.png" alt="" class="how-order__img">
+    </div>
+  </section>
+  <section id="contacts" class="contacts">
+    <img class="contacts__bg" src="img/contacts-bg.png" alt="">
+    <div class="container">
+      <div class="block-title contacts__title">Контакты</div>
+      <div class="subtitle contacts__subtitle">Остались вопросы?</div>
+      <div class="contacts__wrapper">
+        <form class="contacts__form">
+          <div class="contacts__form-text">Заполните форму ниже и наш кондитер свяжется с Вами</div>
+          <input type="text" class="contacts__form-name" placeholder="Ваше имя">
+          <input type="email" class="contacts__form-email" placeholder="Email адрес">
+          <textarea type="text" class="contacts__form-question" placeholder="Ваш вопрос"></textarea>
+          <input type="submit" class="btn contacts__form-send">
+        </form>
+        <div class="contacts__info">
+          <p>Или позвоните по телефону: <a href="tel:+790689992">+7 906 899 92</a></p>
+          <p>Наша почта: <a href="mailto:bakerybypavel@mail.ru">bakerybypavel@mail.ru</a></p>
+          <p>Мы в соц. сетях:
+          <div class="icons contacts__icons">
+            <a href="#" class="icon icon__instagram"><svg height="511pt" viewBox="0 0 511 511.9" width="511pt"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+                <path
+                  d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+                <path
+                  d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+              </svg></a>
+            <a href="#" class="icon icon__vk"><svg id="regular" enable-background="new 0 0 24 24" height="512"
+                viewBox="0 0 24 24" width="512" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015.03-.058.078-.135.103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895.001-.002.002-.005.002-.008.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09-.034-1.387-.011-2.446.007-3.233.036-1.535.152-3.029-1.441-3.029h-3.868c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466h-2.461c-.998 0-1.594.544-1.594 1.455 0 2.046 4.529 13.544 12.145 13.544zm-8.09-13.499c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702c-.066-1.225-.512-1.835-.805-2.205l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241h2.461.01c-.001.003-.001.006-.002.009-.225 1.05-2.446 4.396-3.189 5.435-.012.016-.023.033-.034.05-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105-6.345 0-10.477-10.071-10.636-11.996.055-.005.812-.002 2.546-.003z" />
+              </svg></a>
+            <a href="#" class="icon icon__twitter"><svg viewBox="0 -47 512.00004 512"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m512 55.964844c-32.207031 1.484375-31.503906 1.363281-35.144531 1.667968l19.074219-54.472656s-59.539063 21.902344-74.632813 25.820313c-39.640625-35.628907-98.5625-37.203125-140.6875-11.3125-34.496094 21.207031-53.011719 57.625-46.835937 100.191406-67.136719-9.316406-123.703126-41.140625-168.363282-94.789063l-14.125-16.964843-10.554687 19.382812c-13.339844 24.492188-17.769531 52.496094-12.476563 78.851563 2.171875 10.8125 5.863282 21.125 10.976563 30.78125l-12.117188-4.695313-1.4375 20.246094c-1.457031 20.566406 5.390625 44.574219 18.320313 64.214844 3.640625 5.53125 8.328125 11.605469 14.269531 17.597656l-6.261719-.960937 7.640625 23.199218c10.042969 30.480469 30.902344 54.0625 57.972657 67.171875-27.035157 11.472657-48.875 18.792969-84.773438 30.601563l-32.84375 10.796875 30.335938 16.585937c11.566406 6.324219 52.4375 27.445313 92.820312 33.78125 89.765625 14.078125 190.832031 2.613282 258.871094-58.664062 57.308594-51.613282 76.113281-125.03125 72.207031-201.433594-.589844-11.566406 2.578125-22.605469 8.921875-31.078125 12.707031-16.964844 48.765625-66.40625 48.84375-66.519531zm-72.832031 48.550781c-10.535157 14.066406-15.8125 32.03125-14.867188 50.578125 3.941407 77.066406-17.027343 136.832031-62.328125 177.628906-52.917968 47.660156-138.273437 66.367188-234.171875 51.324219-17.367187-2.722656-35.316406-8.820313-50.171875-14.910156 30.097656-10.355469 53.339844-19.585938 90.875-37.351563l52.398438-24.800781-57.851563-3.703125c-27.710937-1.773438-50.785156-15.203125-64.96875-37.007812 7.53125-.4375 14.792969-1.65625 22.023438-3.671876l55.175781-15.367187-55.636719-13.625c-27.035156-6.621094-42.445312-22.796875-50.613281-35.203125-5.363281-8.152344-8.867188-16.503906-10.96875-24.203125 5.578125 1.496094 12.082031 2.5625 22.570312 3.601563l51.496094 5.09375-40.800781-31.828126c-29.398437-22.929687-41.179687-57.378906-32.542969-90.496093 91.75 95.164062 199.476563 88.011719 210.320313 90.527343-2.386719-23.183593-2.449219-23.238281-3.074219-25.445312-13.886719-49.089844 16.546875-74.015625 30.273438-82.453125 28.671874-17.621094 74.183593-20.277344 105.707031 8.753906 6.808593 6.265625 16.015625 8.730469 24.632812 6.589844 7.734375-1.921875 14.082031-3.957031 20.296875-6.171875l-12.9375 36.945312 16.515625.011719c-3.117187 4.179688-6.855469 9.183594-11.351562 15.183594zm0 0" />
+              </svg></a>
+          </div>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="logo">Cakes</div>
+        <nav class="footer-menu">
+          <a href="#" class="footer-menu__btn"><span></span></a>
+          <ul class="footer-menu__list">
+            <li class="footer-menu__item"><a href="#">Наши торты</a></li>
+            <li class="footer-menu__item"><a href="#">Индивидуальный заказ</a></li>
+            <li class="footer-menu__item"><a href="#">Отзывы</a></li>
+            <li class="footer-menu__item"><a href="#">О нас</a></li>
+            <li class="footer-menu__item"><a href="#">Как заказать</a></li>
+            <li class="footer-menu__item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="footer__phone"><a href="tel:+79068999296">+7 906 899 92 96</a></div>
+        <div class="icons footer__icons">
+          <a href="#" class="icon icon__instagram"><svg height="511pt" viewBox="0 0 511 511.9" width="511pt"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0" />
+              <path
+                d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0" />
+              <path
+                d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0" />
+            </svg></a>
+          <a href="#" class="icon icon__vk"><svg enable-background="new 0 0 24 24" height="512" viewBox="0 0 24 24"
+              width="512" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m12.145 19.5c3.472 0 2.234-2.198 2.502-2.83-.004-.472-.008-.926.008-1.202.22.062.739.325 1.811 1.367 1.655 1.67 2.078 2.665 3.415 2.665h2.461c.78 0 1.186-.323 1.389-.594.196-.262.388-.722.178-1.438-.549-1.724-3.751-4.701-3.95-5.015.03-.058.078-.135.103-.175h-.002c.632-.835 3.044-4.449 3.399-5.895.001-.002.002-.005.002-.008.192-.66.016-1.088-.166-1.33-.274-.362-.71-.545-1.299-.545h-2.461c-.824 0-1.449.415-1.765 1.172-.529 1.345-2.015 4.111-3.129 5.09-.034-1.387-.011-2.446.007-3.233.036-1.535.152-3.029-1.441-3.029h-3.868c-.998 0-1.953 1.09-.919 2.384.904 1.134.325 1.766.52 4.912-.76-.815-2.112-3.016-3.068-5.829-.268-.761-.674-1.466-1.817-1.466h-2.461c-.998 0-1.594.544-1.594 1.455 0 2.046 4.529 13.544 12.145 13.544zm-8.09-13.499c.217 0 .239 0 .4.457.979 2.883 3.175 7.149 4.779 7.149 1.205 0 1.205-1.235 1.205-1.7l-.001-3.702c-.066-1.225-.512-1.835-.805-2.205l3.508.004c.002.017-.02 4.095.01 5.083 0 1.403 1.114 2.207 2.853.447 1.835-2.071 3.104-5.167 3.155-5.293.075-.18.14-.241.376-.241h2.461.01c-.001.003-.001.006-.002.009-.225 1.05-2.446 4.396-3.189 5.435-.012.016-.023.033-.034.05-.327.534-.593 1.124.045 1.954h.001c.058.07.209.234.429.462.684.706 3.03 3.12 3.238 4.08-.138.022-.288.006-2.613.011-.495 0-.882-.74-2.359-2.23-1.328-1.292-2.19-1.82-2.975-1.82-1.524 0-1.413 1.237-1.399 2.733.005 1.622-.005 1.109.006 1.211-.089.035-.344.105-1.009.105-6.345 0-10.477-10.071-10.636-11.996.055-.005.812-.002 2.546-.003z" />
+            </svg></a>
+          <a href="#" class="icon icon__twitter"><svg viewBox="0 -47 512.00004 512" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m512 55.964844c-32.207031 1.484375-31.503906 1.363281-35.144531 1.667968l19.074219-54.472656s-59.539063 21.902344-74.632813 25.820313c-39.640625-35.628907-98.5625-37.203125-140.6875-11.3125-34.496094 21.207031-53.011719 57.625-46.835937 100.191406-67.136719-9.316406-123.703126-41.140625-168.363282-94.789063l-14.125-16.964843-10.554687 19.382812c-13.339844 24.492188-17.769531 52.496094-12.476563 78.851563 2.171875 10.8125 5.863282 21.125 10.976563 30.78125l-12.117188-4.695313-1.4375 20.246094c-1.457031 20.566406 5.390625 44.574219 18.320313 64.214844 3.640625 5.53125 8.328125 11.605469 14.269531 17.597656l-6.261719-.960937 7.640625 23.199218c10.042969 30.480469 30.902344 54.0625 57.972657 67.171875-27.035157 11.472657-48.875 18.792969-84.773438 30.601563l-32.84375 10.796875 30.335938 16.585937c11.566406 6.324219 52.4375 27.445313 92.820312 33.78125 89.765625 14.078125 190.832031 2.613282 258.871094-58.664062 57.308594-51.613282 76.113281-125.03125 72.207031-201.433594-.589844-11.566406 2.578125-22.605469 8.921875-31.078125 12.707031-16.964844 48.765625-66.40625 48.84375-66.519531zm-72.832031 48.550781c-10.535157 14.066406-15.8125 32.03125-14.867188 50.578125 3.941407 77.066406-17.027343 136.832031-62.328125 177.628906-52.917968 47.660156-138.273437 66.367188-234.171875 51.324219-17.367187-2.722656-35.316406-8.820313-50.171875-14.910156 30.097656-10.355469 53.339844-19.585938 90.875-37.351563l52.398438-24.800781-57.851563-3.703125c-27.710937-1.773438-50.785156-15.203125-64.96875-37.007812 7.53125-.4375 14.792969-1.65625 22.023438-3.671876l55.175781-15.367187-55.636719-13.625c-27.035156-6.621094-42.445312-22.796875-50.613281-35.203125-5.363281-8.152344-8.867188-16.503906-10.96875-24.203125 5.578125 1.496094 12.082031 2.5625 22.570312 3.601563l51.496094 5.09375-40.800781-31.828126c-29.398437-22.929687-41.179687-57.378906-32.542969-90.496093 91.75 95.164062 199.476563 88.011719 210.320313 90.527343-2.386719-23.183593-2.449219-23.238281-3.074219-25.445312-13.886719-49.089844 16.546875-74.015625 30.273438-82.453125 28.671874-17.621094 74.183593-20.277344 105.707031 8.753906 6.808593 6.265625 16.015625 8.730469 24.632812 6.589844 7.734375-1.921875 14.082031-3.957031 20.296875-6.171875l-12.9375 36.945312 16.515625.011719c-3.117187 4.179688-6.855469 9.183594-11.351562 15.183594zm0 0" />
+            </svg></a>
+        </div>
+      </div>
+      <div class="footer__copyright">© 2020 Cakes</div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
